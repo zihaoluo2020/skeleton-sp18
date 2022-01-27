@@ -14,6 +14,11 @@ public class LeapYear {
         }
     }
 
+    public static boolean isLeapYear(int year)/** javadoc */
+    {
+        return true;
+    }
+
     /** Must be provided an integer as a command line argument ARGS. */
     public static void main(String[] args) {
         if (args.length < 1) {
